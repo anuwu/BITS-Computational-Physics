@@ -1,0 +1,16 @@
+v_der = @(x) - 4*x ;
+x_der = @(v) v ;
+
+x(1) = 1 ;
+v(1) = 0 ;
+time(1) = 0 ;
+h = 0.01 ;
+
+for t = 0 : h : 2*pi - h ;
+    x_start = x(it) ;
+    v_start = v(
+    
+   
+    it = it + 1 ;
+    time(it) = t + h ;
+end
